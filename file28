@@ -1,0 +1,98 @@
+Repository (Repo): A Git repository is a directory that contains all of your project’s files and the entire version history.
+Commit: A snapshot of your changes. Every time you commit, you save your current work in the history of the repository.
+Branch: A separate line of development. You can create branches to work on features or bug fixes independently from the main project (usually called main or master).
+Merge: The process of combining different branches or changes into one.
+Remote: A version of the repository hosted online (e.g., on GitHub, GitLab, Bitbucket).
+Common Git Commands:
+Initialize a Git Repository:
+
+csharp
+Copy code
+git init
+Initializes a new Git repository in the current directory.
+
+Cloning a Repository:
+
+bash
+Copy code
+git clone <repository_url>
+Copies an existing Git repository from a remote source (like GitHub) to your local machine.
+
+Check the Status:
+
+lua
+Copy code
+git status
+Shows the current state of the working directory and staging area.
+
+Stage Changes:
+
+csharp
+Copy code
+git add <file>
+git add .  # Adds all modified files
+Prepares changes to be committed.
+
+Commit Changes:
+
+sql
+Copy code
+git commit -m "Commit message"
+Saves the staged changes to the local repository with a message.
+
+View the History:
+
+bash
+Copy code
+git log
+Shows the commit history.
+
+Create a Branch:
+
+php
+Copy code
+git branch <branch_name>
+Creates a new branch.
+
+Switch Branches:
+
+php
+Copy code
+git checkout <branch_name>
+Switches to a different branch.
+
+Merge Branches:
+
+php
+Copy code
+git merge <branch_name>
+Merges the specified branch into the current branch.
+
+Push Changes:
+
+perl
+Copy code
+git push origin <branch_name>
+Uploads your local commits to the remote repository.
+
+Pull Changes:
+
+php
+Copy code
+git pull origin <branch_name>
+Fetches and integrates changes from the remote repository to your local machine.
+
+Create a New Tag:
+
+php
+Copy code
+git tag <tag_name>
+Would you like help with specific Git commands or concepts?
+
+
+
+
+
+
+
+ChatGPT can make mistakes. Check important info.
