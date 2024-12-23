@@ -1,0 +1,6 @@
+Key Concepts in PL/SQL:
+DECLARE: For declaring variables, cursors, constants.
+BEGIN: Where the actual logic (queries, loops, and assignments) goes.
+EXCEPTION: Error handling to catch specific or general exceptions.
+LOOP: Iterating over a set of statements.
+CURSOR: Used to fetch rows from a query result.
