@@ -1,0 +1,13 @@
+DECLARE
+   CURSOR c1 IS
+      SELECT emp_id, salary
+      FROM employees
+      WHERE department_id = 10
+      FOR UPDATE;
+BEGIN
+   FOR rec IN c1 LOOP
+      UPDATE employees
+      SET salary = salary * 1.1
+      WHERE CURRENT OF c1;
+   END LOOP;
+END;
